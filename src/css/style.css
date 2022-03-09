@@ -1,0 +1,50 @@
+.conteiner {
+  background-color: rgb(247, 245, 245);
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.window__btn {
+  transition: outline 0.5s linear;
+  margin: 3px;
+  outline: solid 3px rgba(117, 193, 243, 0);
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 8px 20px;
+  color: aliceblue;
+  background-color: rgba(24, 97, 233, 0.719);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.window__btn:hover {
+  background-color: rgba(22, 87, 207, 0.726);
+}
+
+.window__btn--focus {
+  outline: solid 3px rgba(117, 193, 243, 0.87);
+  transition: outline 0.5s linear;
+}
+
+.window__main {
+  background-color: white;
+  margin-top: 20px;
+  max-width: 400px;
+  border: solid 1px rgb(207, 205, 205);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.window {
+  overflow: hidden;
+  height: 40px;
+  transition: height 1s;
+}
+
+.window--mini {
+  height: 200px;
+  transition: height 1s;
+}
